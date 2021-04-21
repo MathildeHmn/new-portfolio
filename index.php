@@ -168,7 +168,7 @@
             <div class="container">
                 <div class="section-heading">
                     <h4>Portfolio</h4>
-                    <h5>Quelques exemples de projets réalisés dans le cadre de mon autoformation</h5>
+                    <h5>Quelques exemples de projets réalisés dans le cadre de mon autoformation.</h5>
                 </div>
 
                 <div class="portfolio-item">
@@ -328,4 +328,3 @@
     </body>
 
 </html>
-
