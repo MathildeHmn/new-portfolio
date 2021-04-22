@@ -122,42 +122,42 @@
                 
                 <div class="others">
                     <div class="tools">
-                        <h6>BDD -</h6>
+                        <h6>BDD</h6>
                         <p>MySQL, MongoDB.</p>
                     </div>
 
                     <div class="tools">
-                        <h6>Outil de test -</h6>
+                        <h6>Outil de test</h6>
                         <p>Postman.</p>
                     </div>
 
                     <div class="tools">
-                        <h6>Versioning -</h6>
+                        <h6>Versioning</h6>
                         <p>Git, GitHub.</p>
                     </div>
 
                     <div class="tools">
-                        <h6>IDE -</h6>
+                        <h6>IDE</h6>
                         <p>VS Code, IntelliJ.</p>
                     </div>
 
                     <div class="tools">
-                        <h6>Hébergement -</h6>
+                        <h6>Hébergement</h6>
                         <p>Hostinger.</p>
                     </div>
 
                     <div class="tools">
-                        <h6>Méthode -</h6>
+                        <h6>Méthode</h6>
                         <p>Agile.</p>
                     </div>
 
                     <div class="languages">
-                        <h6>Langues -</h6>
+                        <h6>Langues</h6>
                         <p>Anglais (courant), Espagnol (courant).</p>
                     </div>
 
                     <div class="soft-skills">
-                        <h6>Soft Skills -</h6>
+                        <h6>Soft Skills</h6>
                         <p>Créativité, sens esthétique, détermination, curiosité, esprit d'équipe.</p>
                     </div>
                 </div>
