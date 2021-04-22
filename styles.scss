@@ -4,24 +4,12 @@
     src: url(./assets/fonts/Poppins-Bold.ttf);
 }
 @font-face {
-    font-family: "font-2";
-    src: url(./assets/fonts/Poppins-BoldItalic.ttf);
-}
-@font-face {
     font-family: "font-3";
     src: url(./assets/fonts/Poppins-ExtraLight.ttf);
 }
 @font-face {
     font-family: "font-4";
     src: url(./assets/fonts/Poppins-ExtraLightItalic.ttf);
-}
-@font-face {
-    font-family: "font-5";
-    src: url(./assets/fonts/Poppins-Italic.ttf);
-}
-@font-face {
-    font-family: "font-6";
-    src: url(./assets/fonts/DMSerifDisplay-Italic.ttf);
 }
 @font-face {
     font-family: "font-7";
@@ -40,16 +28,8 @@
     src: url(./assets/fonts/Poppins-Light.ttf);
 }
 @font-face {
-    font-family: "font-11";
-    src: url(./assets/fonts/Poppins-LightItalic.ttf);
-}
-@font-face {
     font-family: "font-12";
     src: url(./assets/fonts/Poppins-Medium.ttf);
-}
-@font-face {
-    font-family: "font-13";
-    src: url(./assets/fonts/Poppins-MediumItalic.ttf);
 }
 @font-face {
     font-family: "font-14";
@@ -60,16 +40,8 @@
     src: url(./assets/fonts/Poppins-SemiBold.ttf);
 }
 @font-face {
-    font-family: "font-16";
-    src: url(./assets/fonts/Poppins-SemiBoldItalic.ttf);
-}
-@font-face {
     font-family: "font-17";
     src: url(./assets/fonts/Poppins-Thin.ttf);
-}
-@font-face {
-    font-family: "font-18";
-    src: url(./assets/fonts/Poppins-ThinItalic.ttf);
 }
 
 /* COLORS */
@@ -123,7 +95,7 @@ img {
     width: 85%;
 }
 section {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
 }
 
 /* REUSABLE */
@@ -144,6 +116,7 @@ section {
     font-family: "font-8";
     color: var(--color-14);
     position: relative;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 .section-heading h4::before,
@@ -288,7 +261,7 @@ h2 {
 
 /* SKILLS */
 .skills .container {
-    background-color: var(--color-7);
+    background-color: var(--color-10);
     border-radius: 20px;
     border: 3px solid var(--color-15);
 }
@@ -387,11 +360,11 @@ h2 {
 .portfolio-description p {
     text-align: justify;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 .portfolio-description input {
     margin-top: 2%;
-    background-color: var(--color-3);
+    background-color: var(--color-13);
     width: 35%;
     border-radius: .8rem;
     color: var(--color-4);
@@ -409,7 +382,7 @@ h2 {
 
 /* EDUCATION */
 .studies ul {
-    background: var(--color-4);
+    background: var(--color-19);
     background-image: linear-gradient(transparent 23px, rgb(174, 140, 122) 24px, transparent 24px), linear-gradient(90deg, transparent 23px, rgb(174, 140, 122) 24px, transparent 24px);
     background-size: 110% 24px, 24px 100%;
     border-radius: 20px;
@@ -422,10 +395,11 @@ h2 {
 }
 .studies h6 {
     line-height: 1.5;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 1rem;
     color: white;
+    font-family: "font-12";
     letter-spacing: 1px;
 }
 .studies h5 {
@@ -435,18 +409,18 @@ h2 {
     line-height: 1.5;
     letter-spacing: 2.5px;
 }
+
+/* CONTACT */
 .contact {
     background-color: var(--color-7);
 }
 form {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 form label {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: 2.5px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
     color: var(--color-1);
 }
 input,
@@ -457,13 +431,12 @@ textarea {
     margin-bottom: 5px;
     border: none;
     outline: none;
-    background-color: var(--color-4);
+    background-color: var(--color-8);
     color: var(--color-2);
 }
 input,
 textarea {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: white;
 }
 textarea {
@@ -471,16 +444,14 @@ textarea {
 }
 input[type="submit"] {
     margin-top: 10px;
-    margin-left: 40%;
+    margin-left: 37.5%;
     text-align: center;
-    background-color: var(--color-3);
+    background-color: var(--color-15);
     width: 25%;
-    color: var(--color-5);
-    font-size: 2.5rem;
-    font-family: 'Cedarville Cursive', sans-serif;
+    color: var(--color-16);
+    font-size: 2rem;
     border-radius: .8rem;
     cursor: pointer;
-    transition: background-color 650ms;
 }
 input[type="submit"]:hover {
     color: var(--color-1);
@@ -518,12 +489,12 @@ input[type="submit"]:hover {
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: var(--color-1);
-    padding: 1.5rem 0;
+    background-color: var(--color-3);
+    padding: 1rem 0;
     position: relative;
 }
 .copyright p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 2.2px;
     color: var(--color-6);
