@@ -398,7 +398,6 @@ h2 {
 .studies h6 {
     line-height: 1.5;
     font-size: 1.2rem;
-    font-weight: 500;
     margin-bottom: 1rem;
     color: white;
     font-family: "font-12";
@@ -496,13 +495,138 @@ input[type="submit"]:hover {
     position: relative;
 }
 .copyright p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 2.2px;
     color: var(--color-6);
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1000px) {
+    .section-heading {
+        margin-bottom: 4rem;
+        line-height: 1.3;
+    }
+    .section-heading h4 {
+        font-size: 3rem;
+    }
+    .section-heading h4::before {
+        width: 11rem;
+    }
+    .section-heading h5 {
+        font-size: 1rem;
+    }
+    .hello {
+        font-size: 2.5rem;
+    }
+    .pres h4 {
+        line-height: 1.2;
+        font-size: 1.1rem;
+        letter-spacing: 2px;    
+    }
+    .about {
+        padding: 4rem 5rem;
+    }
+    .my-skills {
+        margin-top: .5rem;
+    }
+    .skill h6 {
+        font-size: 14px;
+    }
+    .icon-container {
+        width: 4rem;
+        height: 4rem;
+    }
+    .icon-container i {
+        font-size: 1.8rem;
+    }
+    .tools h6, .languages h6, .soft-skills h6 {
+        font-size: 16px;
+    }
+    .tools p, .languages p, .soft-skills p {
+        font-size: .8rem;
+    }
+    .portfolio-item {
+        margin-bottom: 4rem;
+    }
+    .portfolio-description {
+        margin-left: 1rem;
+    }
+    .portfolio-description h5,
+    .fa-html5,
+    .fa-css3-alt,
+    .fa-js-square {
+        font-size: 1.5rem;
+    }
+    .fa-html5,
+    .fa-css3-alt,
+    .fa-js-square {
+        font-size: 1.2rem;
+        padding-right: 2px;
+    }
+    .portfolio-description p {
+        font-size: 14px;
+        line-height: 1;
+    }
+    .portfolio-description input {
+        width: 50%;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .studies ul {
+        padding: 3rem 3rem;
+    }
+    .studies h6 {
+        line-height: 1.3;
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+    .studies h5 {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+    form {
+        width: 80%;
+    }
+    form label {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+    input,
+    select {
+        margin-bottom: 3px;
+    }
+    input,
+    textarea {
+        font-size: 1rem;
+    }
+    input[type="submit"] {
+        font-size: 1.6rem;
+    }
+    .word,
+    .signature,
+    .links {
+        width: 200px;
+    }
+    .word h5,
+    .links h5 {
+        font-size: .9rem;
+    }
+    .signature h5 {
+        font-size: 2rem;
+    }
+    .signature h6,
+    .word p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .copyright p {
+        font-size: .9rem;
+        letter-spacing: 2px;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .nav > .nav-btn {
       display: inline-block;
