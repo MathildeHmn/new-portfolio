@@ -797,3 +797,146 @@ input[type="submit"]:hover {
         letter-spacing: 1px;
     }
 }}
+
+@media screen and (max-width: 600px) {
+    .section-heading {
+        margin-bottom: 3rem;
+        line-height: 1.2;
+    }
+    .section-heading h4 {
+        font-size: 2.6rem;
+    }
+    .section-heading h4::before,
+    .section-heading h4::after {
+        bottom: 0rem;
+    }
+    .section-heading h4::before {
+        width: 8rem;
+    }
+    .section-heading h5 {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 3.2rem;
+        letter-spacing: 3px;
+    }
+    h2 {
+        letter-spacing: 1.6px;
+        font-size: 1rem;
+    }
+    .index .container {
+        display: block;
+    }
+    .img-index img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .hello {
+        font-size: 2.5rem;
+    }
+    .pres h4 {
+        line-height: 1.3;
+        font-size: 1.1rem;
+    }
+    .about {
+        padding: 4rem 5rem;
+    }
+    .about h5 {
+        font-size: 1.6rem;
+    }
+    .about p {
+        padding: 10px 0;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .hobbies {
+        padding: 10px 0;
+    }
+    .skill h6 {
+        letter-spacing: 1.3px;
+        font-size: 14px;
+    }
+    .icon-container {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .icon-container i {
+        font-size: 1.6rem;
+    }
+    .tools, .languages, .soft-skills {
+        margin: 1.4rem;
+    }
+    .tools h6, .languages h6, .soft-skills h6 {
+        font-size: 14px;
+    }
+    .tools p, .languages p, .soft-skills p {
+        font-size: .9rem;
+    }
+    .portfolio-item {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    .portfolio-img {
+        display: block;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .portfolio-description {
+        margin-left: 1rem;
+    }
+    .portfolio-description h5,
+    .fa-html5,
+    .fa-css3-alt,
+    .fa-js-square {
+        margin-bottom: 4px;
+        font-size: 1.3rem;
+    }
+    .fa-html5,
+    .fa-css3-alt,
+    .fa-js-square {
+        font-size: 1.3rem;
+    }
+    .portfolio-description p {
+        font-size: 16px;
+        line-height: 1.1;
+    }
+    .portfolio-description input {
+        display: block;
+        margin: 10px auto;
+        width: 40%;
+        padding: 10px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .studies ul {
+        padding: 3rem 3rem;
+        width: 90%;
+    }
+    .studies h6 {
+        line-height: 1.2;
+        font-size: 1rem;
+    }
+    .studies h5 {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    form {
+        width: 80%;
+    }
+    form label {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+    input,
+    textarea {
+        font-size: 1.1rem;
+    }
+    input[type="submit"] {
+        margin-left: 33%;
+        width: 35%;
+        font-size: 1.6rem;
+    }
+}
