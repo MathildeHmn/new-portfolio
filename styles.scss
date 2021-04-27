@@ -940,3 +940,41 @@ input[type="submit"]:hover {
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .tools, .languages, .soft-skills {
+        margin: 1.1rem;
+    }
+    .portfolio-img {
+        width: 100%;
+    }
+    .studies ul {
+        padding: 2rem 2rem;
+        width: 95%;
+    }
+    .studies h6 {
+        font-size: .9rem;
+    }
+    .studies h5 {
+        font-size: 1rem;
+    }
+    form {
+        width: 90%;
+    }
+    form label {
+        font-size: 1.1rem;
+        letter-spacing: 1.6px;
+    }
+    input,
+    textarea {
+        font-size: 1rem;
+    }
+    input[type="submit"] {
+        font-size: 1.4rem;
+    }
+    .word,
+    .signature,
+    .links {
+        width: 380px;
+    }
+}
