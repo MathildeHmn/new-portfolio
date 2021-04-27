@@ -12,10 +12,6 @@
     src: url(./assets/fonts/Poppins-ExtraLightItalic.ttf);
 }
 @font-face {
-    font-family: "font-7";
-    src: url(./assets/fonts/DMSerifDisplay-Regular.ttf);
-}
-@font-face {
     font-family: "font-8";
     src: url(./assets/fonts/Milky\ Matcha.otf);
 }
@@ -35,14 +31,6 @@
     font-family: "font-14";
     src: url(./assets/fonts/Poppins-Regular.ttf);
 }
-@font-face {
-    font-family: "font-15";
-    src: url(./assets/fonts/Poppins-SemiBold.ttf);
-}
-@font-face {
-    font-family: "font-17";
-    src: url(./assets/fonts/Poppins-Thin.ttf);
-}
 
 /* COLORS */
 :root {
@@ -57,14 +45,10 @@
     --color-8: #D4A7A2;
     --color-9: #AA7777;
     --color-10: #FCE8DB;
-    --color-11: #F7D7C2;
-    --color-12: #F9D6C3;
     --color-13: #F7BF9E;
     --color-14: #B27563;
     --color-15: #825143;
     --color-16: #E0D3CE;
-    --color-17: #E2C5BB;
-    --color-18: #D1B6AB;
     --color-19: #C6A394;
     --color-20: #AE8D79;
     --color-21: #9B7565;
@@ -977,4 +961,8 @@ input[type="submit"]:hover {
     .links {
         width: 380px;
     }
+}
+
+@media screen and (max-width: 360px) {
+
 }
